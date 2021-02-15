@@ -64,7 +64,7 @@ public class WeatherModel {
 
     @Override
     public String toString() {
-        return "In city " + name + "weather:\n" + "temp: " + temp +
+        return "In city " + name + " weather:\n" + "temp: " + temp +
                 "\npressure: " + pressure +
                 "\nhumidity: " + humidity;
     }
